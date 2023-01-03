@@ -1,0 +1,12 @@
+{
+  "realm": "project",
+  "auth-server-url": "http://localhost:8888/auth/",
+  "resource": "api",
+  "credentials": {
+    "secret": "U7tUxFggBxipOEFodq2uVxzrSiA45Bzc"
+  },
+  "public-client": true,
+  "use-resource-role-mappings": true,
+  "ssl-required": "external",
+  "bearer-only": true
+}
