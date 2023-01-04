@@ -1,4 +1,4 @@
-package configuration;
+package com.example.configuration;
 
 import org.keycloak.adapters.springsecurity.KeycloakSecurityComponents;
 import org.keycloak.adapters.springsecurity.authentication.KeycloakAuthenticationProvider;
@@ -40,12 +40,9 @@ public class SecurityConfig extends KeycloakWebSecurityConfigurerAdapter {
     protected void configure(HttpSecurity http) throws Exception {
         super.configure(http);
         http.authorizeRequests()
-                .antMatchers("/test/user")
+                .antMatchers("/my-controller/user")
                 .authenticated()
                 .anyRequest()
                 .permitAll();
-        http.cors().and().csrf().disable();
     }
-
-
 }

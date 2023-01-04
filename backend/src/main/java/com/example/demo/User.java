@@ -1,4 +1,4 @@
-package api.demo;
+package com.example.demo;
 
 class User {
     private String name;

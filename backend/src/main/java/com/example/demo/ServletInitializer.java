@@ -1,4 +1,4 @@
-package api.demo;
+package com.example.demo;
 
 import com.example.DemoApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
